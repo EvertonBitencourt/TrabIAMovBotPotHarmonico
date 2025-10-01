@@ -1,0 +1,367 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/eb/ros2_ws/src/phi_aria/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eb/ros2_ws/build/phi_aria
+[ 75%] [32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/phi_p3dx.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/PhiROS2Aria.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/Pose.cpp.o[0m
+In file included from [01m[K/usr/local/Aria/include/Aria.h:47[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArRobot.h:[m[K In member function ‘[01m[Kvoid ArRobot::setDoNotSwitchBaud(bool)[m[K’:
+[01m[K/usr/local/Aria/include/ArRobot.h:1075:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KdoNotSwitchBaud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1075 |   AREXPORT void setDoNotSwitchBaud([01;35m[Kbool doNotSwitchBaud[m[K)
+      |                                    [01;35m[K~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:47[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArRobot.h:[m[K In member function ‘[01m[Kvoid ArRobot::setDoNotSwitchBaud(bool)[m[K’:
+[01m[K/usr/local/Aria/include/ArRobot.h:1075:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KdoNotSwitchBaud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1075 |   AREXPORT void setDoNotSwitchBaud([01;35m[Kbool doNotSwitchBaud[m[K)
+      |                                    [01;35m[K~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArActionColorFollow.h:33[m[K,
+                 from [01m[K/usr/local/Aria/include/ArActionGroups.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:57[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::zoom(int)[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:118:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 |   AREXPORT virtual bool zoom([01;35m[Kint zoomValue[m[K) { return false; }
+      |                              [01;35m[K~~~~^~~~~~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::zoomRel(int)[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:120:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  120 |   AREXPORT virtual bool zoomRel([01;35m[Kint zoomValue[m[K) { return false; }
+      |                                 [01;35m[K~~~~^~~~~~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::setGain(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:166:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  166 |   AREXPORT virtual bool setGain([01;35m[Kdouble gain[m[K) const { return false; }
+      |                                 [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::getGain(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:168:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  168 |   AREXPORT virtual double getGain([01;35m[Kdouble gain[m[K) const { return 0; }
+      |                                   [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::setFocus(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:174:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  174 |   AREXPORT virtual bool setFocus([01;35m[Kdouble focus[m[K) const { return false; }
+      |                                  [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::getFocus(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:176:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  176 |   AREXPORT virtual double getFocus([01;35m[Kdouble focus[m[K) const { return 0; }
+      |                                    [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::packetHandler(ArBasePacket*)[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:215:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  215 |   AREXPORT virtual bool packetHandler([01;35m[KArBasePacket *packet[m[K) { return false; }
+      |                                       [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::setLinesAndVertex(std::map<int, ArLineFinderSegment*>*, ArPose)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:191:18:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  191 |       myVertex = [01;35m[Kvertex[m[K;
+      |                  [01;35m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArActionColorFollow.h:33[m[K,
+                 from [01m[K/usr/local/Aria/include/ArActionGroups.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:57[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::zoom(int)[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:118:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 |   AREXPORT virtual bool zoom([01;35m[Kint zoomValue[m[K) { return false; }
+      |                              [01;35m[K~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::zoomRel(int)[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:120:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  120 |   AREXPORT virtual bool zoomRel([01;35m[Kint zoomValue[m[K) { return false; }
+      |                                 [01;35m[K~~~~^~~~~~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::setGain(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:166:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  166 |   AREXPORT virtual bool setGain([01;35m[Kdouble gain[m[K) const { return false; }
+      |                                 [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::getGain(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:168:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  168 |   AREXPORT virtual double getGain([01;35m[Kdouble gain[m[K) const { return 0; }
+      |                                   [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::setFocus(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:174:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  174 |   AREXPORT virtual bool setFocus([01;35m[Kdouble focus[m[K) const { return false; }
+      |                                  [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::getFocus(double) const[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:176:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  176 |   AREXPORT virtual double getFocus([01;35m[Kdouble focus[m[K) const { return 0; }
+      |                                    [01;35m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::setFinal(ArPose)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:194:64:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  194 |     void setFinal(ArPose final) { myFinalSet = true; myFinal = [01;35m[Kfinal[m[K; }
+      |                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::packetHandler(ArBasePacket*)[m[K’:
+[01m[K/usr/local/Aria/include/ArPTZ.h:215:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  215 |   AREXPORT virtual bool packetHandler([01;35m[KArBasePacket *packet[m[K) { return false; }
+      |                                       [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::setApproach(ArPose)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:196:42:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  196 |     { myApproachSet = true; myApproach = [01;35m[Kapproach[m[K; }
+      |                                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::setLinesAndVertex(std::map<int, ArLineFinderSegment*>*, ArPose)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:191:18:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  191 |       myVertex = [01;35m[Kvertex[m[K;
+      |                  [01;35m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::setFinal(ArPose)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:194:64:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  194 |     void setFinal(ArPose final) { myFinalSet = true; myFinal = [01;35m[Kfinal[m[K; }
+      |                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::setApproach(ArPose)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:196:42:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  196 |     { myApproachSet = true; myApproach = [01;35m[Kapproach[m[K; }
+      |                                          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:87[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArSick.h:[m[K In member function ‘[01m[Kvoid ArSick::setMinRange(unsigned int)[m[K’:
+[01m[K/usr/local/Aria/include/ArSick.h:206:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KminRange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  206 |   void setMinRange([01;35m[Kunsigned int minRange[m[K) { }
+      |                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:87[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArSick.h:[m[K In member function ‘[01m[Kvoid ArSick::setMinRange(unsigned int)[m[K’:
+[01m[K/usr/local/Aria/include/ArSick.h:206:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KminRange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  206 |   void setMinRange([01;35m[Kunsigned int minRange[m[K) { }
+      |                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:116[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionMovementParameters.h:[m[K In member function ‘[01m[Kvoid ArActionMovementParameters::enableOnceFromSector(ArMapObject*)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionMovementParameters.h:53:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmapObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |   AREXPORT void enableOnceFromSector([01;35m[KArMapObject *mapObject[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:116[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArActionMovementParameters.h:[m[K In member function ‘[01m[Kvoid ArActionMovementParameters::enableOnceFromSector(ArMapObject*)[m[K’:
+[01m[K/usr/local/Aria/include/ArActionMovementParameters.h:53:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmapObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |   AREXPORT void enableOnceFromSector([01;35m[KArMapObject *mapObject[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:128[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArLaserFilter.h:[m[K In member function ‘[01m[Kvirtual void* ArLaserFilter::runThread(void*)[m[K’:
+[01m[K/usr/local/Aria/include/ArLaserFilter.h:71:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |   AREXPORT virtual void *runThread([01;35m[Kvoid *arg[m[K) { return NULL; }
+      |                                    [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/usr/local/Aria/include/Aria.h:128[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ArLaserFilter.h:[m[K In member function ‘[01m[Kvirtual void* ArLaserFilter::runThread(void*)[m[K’:
+[01m[K/usr/local/Aria/include/ArLaserFilter.h:71:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |   AREXPORT virtual void *runThread([01;35m[Kvoid *arg[m[K) { return NULL; }
+      |                                    [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:[m[K In constructor ‘[01m[KPhiROS2Aria::PhiROS2Aria()[m[K’:
+[01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:67:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPhiROS2Aria::publish_sonar[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |     bool [01;35m[Kpublish_sonar[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:63:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool PhiROS2Aria::publish_aria_lasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   63 |     bool [01;35m[Kpublish_aria_lasers[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    5 | [01;35m[KPhiROS2Aria[m[K::PhiROS2Aria() : Node("phi_aria_p3dx"),
+      | [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:63:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPhiROS2Aria::publish_aria_lasers[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   63 |     bool [01;35m[Kpublish_aria_lasers[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:50:29:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KArFunctorC<PhiROS2Aria> PhiROS2Aria::myPublishCB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   50 |     ArFunctorC<PhiROS2Aria> [01;35m[KmyPublishCB[m[K;
+      |                             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    5 | [01;35m[KPhiROS2Aria[m[K::PhiROS2Aria() : Node("phi_aria_p3dx"),
+      | [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:[m[K In member function ‘[01m[Kvoid PhiROS2Aria::publish()[m[K’:
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:249:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::list<ArSensorReading*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  249 |         for(int i=0;[01;35m[Ki<readings->size()/2[m[K;i++)
+      |                     [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:251:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::operator=(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  251 |         poseTaken = (*it)->getPoseTaken([01;35m[K)[m[K;
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+                 from [01m[K/usr/local/Aria/include/Aria.h:30[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1[m[K:
+[01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::ArPose(const ArPose&)[m[K’
+  676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+      |   [01;36m[K^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:[m[K In static member function ‘[01m[Kstatic bool PhiROS2Aria::simStatPacketHandler(ArRobotPacket*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:575:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  575 |         char [01;35m[Ka[m[K = packet->bufToByte(); // unused byte
+      |              [01;35m[K^[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:576:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  576 |         char [01;35m[Kb[m[K = packet->bufToByte(); // unused byte
+      |              [01;35m[K^[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:580:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksimint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  580 |         int [01;35m[Ksimint[m[K = packet->bufToUByte2();
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:581:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krealint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  581 |         int [01;35m[Krealint[m[K = packet->bufToUByte2();
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:582:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klastint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  582 |         int [01;35m[Klastint[m[K = packet->bufToUByte2();
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:587:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrealZ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  587 |         int [01;35m[KrealZ[m[K = packet->bufToByte4();
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:620:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuser[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  620 |         unsigned char [01;35m[Kuser[m[K = packet->bufToUByte(); // unused byte
+      |                       [01;35m[K^~~~[m[K
+[01m[K/home/eb/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:622:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kloaded[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  622 |         unsigned char [01;35m[Kloaded[m[K = packet->bufToUByte(); // unused byte
+      |                       [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable phi_p3dx[0m
+[100%] Built target phi_p3dx
+-- Install configuration: ""
+-- Installing: /home/eb/ros2_ws/install/phi_aria/lib/phi_aria/phi_p3dx
+-- Set runtime path of "/home/eb/ros2_ws/install/phi_aria/lib/phi_aria/phi_p3dx" to ""
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes/sick_lms100.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_hubcap.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_wheel.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_hubcap.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_rim.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_hubcap.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_rim.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_wheel.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_sonar.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_wheel.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_sonar.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/top.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_swivel.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/chassis.stl
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/p3dx.urdf.xacro
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/common.xacro
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/pioneer3dx_wheel.xacro
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/sick_lms100.urdf.xacro
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/ament_index/resource_index/package_run_dependencies/phi_aria
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/ament_index/resource_index/parent_prefix_path/phi_aria
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.sh
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.dsv
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/path.sh
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/path.dsv
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.bash
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.sh
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.zsh
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.dsv
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/package.dsv
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/ament_index/resource_index/packages/phi_aria
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig.cmake
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig-version.cmake
+-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/package.xml

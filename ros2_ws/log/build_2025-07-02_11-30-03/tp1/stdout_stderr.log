@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:[m[K In lambda function:
+[01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:113:22:[m[K [01;31m[Kerror: [m[K‘[01m[KnumThreads[m[K’ is not captured
+  113 |             if (t == [01;31m[KnumThreads[m[K - 1) endRow = height_;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:110:60:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  110 |         threads.emplace_back([this, t, rowsPerThread, steps[01;36m[K][m[K() {
+      |                                                            [01;36m[K^[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:103:52:[m[K [01;36m[Knote: [m[K‘[01m[Kint numThreads[m[K’ declared here
+  103 | void HarmonicField::parallelIterate(int steps, [01;36m[Kint numThreads[m[K)
+      |                                                [01;36m[K~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:146: CMakeFiles/navigation.dir/src/HarmonicField.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

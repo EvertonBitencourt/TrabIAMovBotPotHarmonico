@@ -1,0 +1,38 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HimmMap.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:104:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                              [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:118:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                          [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* glThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:132:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  132 | void *glThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                        [01;35m[K~~~~~~^~~[m[K
+[ 50%] [32m[1mLinking CXX executable navigation[0m
+[100%] Built target navigation
+-- Install configuration: ""
+-- Installing: /home/eb/ros2_ws/install/tp1/lib/tp1/navigation
+-- Set runtime path of "/home/eb/ros2_ws/install/tp1/lib/tp1/navigation" to ""
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.sh
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.dsv
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.bash
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.sh
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.zsh
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.dsv
+-- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.dsv
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake
+-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/package.xml

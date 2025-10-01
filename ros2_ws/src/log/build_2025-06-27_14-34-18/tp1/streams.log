@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/eb/ros2_ws/src/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/tp1 -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.055s] [ 20%] [32m[1mLinking CXX executable navigation[0m
+[0.606s] /usr/bin/ld: CMakeFiles/navigation.dir/src/main.cpp.o: na função "NavigationNode::timer_callback()":
+[0.606s] main.cpp:(.text._ZN14NavigationNode14timer_callbackEv[_ZN14NavigationNode14timer_callbackEv]+0x36a): referência não definida para "HimmMap::update(float, float, float, float)"
+[0.626s] /usr/bin/ld: CMakeFiles/navigation.dir/src/Action.cpp.o: na função "Action::Action()":
+[0.626s] Action.cpp:(.text+0x3c): referência não definida para "HimmMap::HimmMap(int, int, float, float, float)"
+[0.660s] collect2: error: ld returned 1 exit status
+[0.661s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:266: navigation] Erro 1
+[0.661s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[0.661s] gmake: *** [Makefile:146: all] Erro 2
+[0.663s] Invoked command in '/home/eb/ros2_ws/src/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/tp1 -- -j12 -l12

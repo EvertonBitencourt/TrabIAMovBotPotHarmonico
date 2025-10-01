@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HimmMap.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:[m[K In member function ‘[01m[Kvoid HarmonicField::initializeFromHimm(const HimmMap&)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:17:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class HimmMap[m[K’ has no member named ‘[01m[KgetCell[m[K’
+   17 |             int value = map.[01;31m[KgetCell[m[K(x, y);
+      |                             [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:146: CMakeFiles/navigation.dir/src/HarmonicField.cpp.o] Erro 1
+gmake[2]: ** Esperando que outros processos terminem.
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:24:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint HimmMap::getCell(int, int) const[m[K’
+   24 | int [01;31m[KHimmMap[m[K::getCell(int x, int y) const
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:24:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint HimmMap::getCell(int, int) const[m[K’
+In file included from [01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:1[m[K:
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass HimmMap[m[K’ defined here
+    6 | class [01;36m[KHimmMap[m[K {
+      |       [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:132: CMakeFiles/navigation.dir/src/HimmMap.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

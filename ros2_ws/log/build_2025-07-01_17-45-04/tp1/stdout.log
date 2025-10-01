@@ -1,0 +1,5 @@
+[ 42%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Perception.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HimmMap.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m

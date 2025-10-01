@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (phi_aria) JobQueued: {'identifier': 'phi_aria', 'dependencies': OrderedDict()}
+[0.000338] (tp1) JobQueued: {'identifier': 'tp1', 'dependencies': OrderedDict()}
+[0.000658] (phi_aria) JobStarted: {'identifier': 'phi_aria'}
+[0.005195] (tp1) JobStarted: {'identifier': 'tp1'}
+[0.009163] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'cmake'}
+[0.009719] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'build'}
+[0.010513] (phi_aria) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eb/ros2_ws/build/phi_aria', '--', '-j12', '-l12'], 'cwd': '/home/eb/ros2_ws/build/phi_aria', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'eb'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/Aria/lib'), ('HOME', '/home/eb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1314'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eb-Dell-G15-5510:@/tmp/.ICE-unix/1314,unix/eb-Dell-G15-5510:/tmp/.ICE-unix/1314'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/959ffd00_6c1c_4644_81f1_32d4a7982fb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8Y8482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eb/ros2_ws/build/phi_aria'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble')]), 'shell': False}
+[0.013974] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'cmake'}
+[0.014691] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'build'}
+[0.015657] (tp1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eb/ros2_ws/build/tp1', '--', '-j12', '-l12'], 'cwd': '/home/eb/ros2_ws/build/tp1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'eb'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/Aria/lib'), ('HOME', '/home/eb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1314'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eb-Dell-G15-5510:@/tmp/.ICE-unix/1314,unix/eb-Dell-G15-5510:/tmp/.ICE-unix/1314'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/959ffd00_6c1c_4644_81f1_32d4a7982fb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8Y8482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eb/ros2_ws/build/tp1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble')]), 'shell': False}
+[0.067414] (tp1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation\x1b[0m\n'}
+[0.077509] (phi_aria) StdoutLine: {'line': b'[100%] Built target phi_p3dx\n'}
+[0.087202] (phi_aria) CommandEnded: {'returncode': 0}
+[0.087742] (tp1) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o\x1b[0m\n'}
+[0.088076] (tp1) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o\x1b[0m\n'}
+[0.088315] (tp1) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o\x1b[0m\n'}
+[0.088390] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'install'}
+[0.096199] (phi_aria) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eb/ros2_ws/build/phi_aria'], 'cwd': '/home/eb/ros2_ws/build/phi_aria', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'eb'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/Aria/lib'), ('HOME', '/home/eb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1314'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eb-Dell-G15-5510:@/tmp/.ICE-unix/1314,unix/eb-Dell-G15-5510:/tmp/.ICE-unix/1314'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/959ffd00_6c1c_4644_81f1_32d4a7982fb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8Y8482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eb/ros2_ws/build/phi_aria'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble')]), 'shell': False}
+[0.099947] (-) TimerEvent: {}
+[0.103122] (phi_aria) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.103347] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/lib/phi_aria/phi_p3dx\n'}
+[0.103570] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description\n'}
+[0.103750] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes\n'}
+[0.103866] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes/sick_lms100.stl\n'}
+[0.104094] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes\n'}
+[0.104256] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_hubcap.stl\n'}
+[0.104387] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_wheel.stl\n'}
+[0.104502] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_hubcap.stl\n'}
+[0.104651] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_rim.stl\n'}
+[0.104767] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_hubcap.stl\n'}
+[0.104881] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_rim.stl\n'}
+[0.105034] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_wheel.stl\n'}
+[0.105191] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_sonar.stl\n'}
+[0.105325] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_wheel.stl\n'}
+[0.105432] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_sonar.stl\n'}
+[0.105536] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/top.stl\n'}
+[0.105633] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_swivel.stl\n'}
+[0.105727] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/chassis.stl\n'}
+[0.105818] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf\n'}
+[0.105928] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/p3dx.urdf.xacro\n'}
+[0.106025] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/common.xacro\n'}
+[0.106111] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/pioneer3dx_wheel.xacro\n'}
+[0.106196] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/sick_lms100.urdf.xacro\n'}
+[0.106285] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/ament_index/resource_index/package_run_dependencies/phi_aria\n'}
+[0.106377] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/ament_index/resource_index/parent_prefix_path/phi_aria\n'}
+[0.106464] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.sh\n'}
+[0.106547] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.dsv\n'}
+[0.106610] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/path.sh\n'}
+[0.106671] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/environment/path.dsv\n'}
+[0.106732] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.bash\n'}
+[0.106792] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.sh\n'}
+[0.106853] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.zsh\n'}
+[0.106922] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/local_setup.dsv\n'}
+[0.107189] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/package.dsv\n'}
+[0.107256] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/ament_index/resource_index/packages/phi_aria\n'}
+[0.107318] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig.cmake\n'}
+[0.107385] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig-version.cmake\n'}
+[0.107444] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/phi_aria/share/phi_aria/package.xml\n'}
+[0.107920] (phi_aria) CommandEnded: {'returncode': 0}
+[0.128443] (phi_aria) JobEnded: {'identifier': 'phi_aria', 'rc': 0}
+[0.200083] (-) TimerEvent: {}
+[0.300395] (-) TimerEvent: {}
+[0.400647] (-) TimerEvent: {}
+[0.500985] (-) TimerEvent: {}
+[0.601309] (-) TimerEvent: {}
+[0.701710] (-) TimerEvent: {}
+[0.765365] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.765549] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:19:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klasers\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.765625] (tp1) StderrLine: {'line': b'   19 | void Action::avoidObstacles(\x1b[01;35m\x1b[Kconst std::vector<float> lasers\x1b[m\x1b[K, const std::vector<float> sonars)\n'}
+[0.765689] (tp1) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.765882] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.765989] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:58:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klasers\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.766061] (tp1) StderrLine: {'line': b'   58 | void Action::keepAsFarthestAsPossibleFromWalls(\x1b[01;35m\x1b[Kstd::vector<float> lasers\x1b[m\x1b[K, std::vector<float> sonars)\n'}
+[0.766123] (tp1) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.766473] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.766572] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:115:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KfrontRight\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.766643] (tp1) StderrLine: {'line': b'  115 |     float \x1b[01;35m\x1b[KfrontRight\x1b[m\x1b[K = sonars[4];\n'}
+[0.766706] (tp1) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.766825] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:118:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsideRight\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.766895] (tp1) StderrLine: {'line': b'  118 |     float \x1b[01;35m\x1b[KsideRight\x1b[m\x1b[K = (sonars[6] + sonars[7]) / 2.0;\n'}
+[0.766967] (tp1) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.767144] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:105:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klasers\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.767246] (tp1) StderrLine: {'line': b'  105 | void Action::keepAsCloseAsPossibleToTheWalls(\x1b[01;35m\x1b[Kstd::vector<float> lasers\x1b[m\x1b[K, std::vector<float> sonars)\n'}
+[0.767312] (tp1) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.801805] (-) TimerEvent: {}
+[0.902098] (-) TimerEvent: {}
+[1.002376] (-) TimerEvent: {}
+[1.102630] (-) TimerEvent: {}
+[1.202886] (-) TimerEvent: {}
+[1.303240] (-) TimerEvent: {}
+[1.403534] (-) TimerEvent: {}
+[1.503854] (-) TimerEvent: {}
+[1.604159] (-) TimerEvent: {}
+[1.704456] (-) TimerEvent: {}
+[1.804718] (-) TimerEvent: {}
+[1.904994] (-) TimerEvent: {}
+[2.005301] (-) TimerEvent: {}
+[2.105634] (-) TimerEvent: {}
+[2.205950] (-) TimerEvent: {}
+[2.306272] (-) TimerEvent: {}
+[2.406589] (-) TimerEvent: {}
+[2.506887] (-) TimerEvent: {}
+[2.607222] (-) TimerEvent: {}
+[2.707502] (-) TimerEvent: {}
+[2.807813] (-) TimerEvent: {}
+[2.908135] (-) TimerEvent: {}
+[3.008517] (-) TimerEvent: {}
+[3.108781] (-) TimerEvent: {}
+[3.209134] (-) TimerEvent: {}
+[3.309434] (-) TimerEvent: {}
+[3.409704] (-) TimerEvent: {}
+[3.510042] (-) TimerEvent: {}
+[3.610309] (-) TimerEvent: {}
+[3.710603] (-) TimerEvent: {}
+[3.810923] (-) TimerEvent: {}
+[3.911185] (-) TimerEvent: {}
+[4.011529] (-) TimerEvent: {}
+[4.111818] (-) TimerEvent: {}
+[4.212140] (-) TimerEvent: {}
+[4.312545] (-) TimerEvent: {}
+[4.412876] (-) TimerEvent: {}
+[4.513255] (-) TimerEvent: {}
+[4.613549] (-) TimerEvent: {}
+[4.713980] (-) TimerEvent: {}
+[4.814293] (-) TimerEvent: {}
+[4.914636] (-) TimerEvent: {}
+[5.014996] (-) TimerEvent: {}
+[5.115358] (-) TimerEvent: {}
+[5.215700] (-) TimerEvent: {}
+[5.316009] (-) TimerEvent: {}
+[5.416323] (-) TimerEvent: {}
+[5.516594] (-) TimerEvent: {}
+[5.616968] (-) TimerEvent: {}
+[5.717283] (-) TimerEvent: {}
+[5.817625] (-) TimerEvent: {}
+[5.917962] (-) TimerEvent: {}
+[6.018283] (-) TimerEvent: {}
+[6.118666] (-) TimerEvent: {}
+[6.219024] (-) TimerEvent: {}
+[6.319421] (-) TimerEvent: {}
+[6.419712] (-) TimerEvent: {}
+[6.520073] (-) TimerEvent: {}
+[6.620378] (-) TimerEvent: {}
+[6.720718] (-) TimerEvent: {}
+[6.821048] (-) TimerEvent: {}
+[6.921360] (-) TimerEvent: {}
+[7.021711] (-) TimerEvent: {}
+[7.122089] (-) TimerEvent: {}
+[7.222431] (-) TimerEvent: {}
+[7.322764] (-) TimerEvent: {}
+[7.423149] (-) TimerEvent: {}
+[7.523454] (-) TimerEvent: {}
+[7.623794] (-) TimerEvent: {}
+[7.724096] (-) TimerEvent: {}
+[7.824399] (-) TimerEvent: {}
+[7.924715] (-) TimerEvent: {}
+[8.025004] (-) TimerEvent: {}
+[8.125297] (-) TimerEvent: {}
+[8.225587] (-) TimerEvent: {}
+[8.325892] (-) TimerEvent: {}
+[8.426264] (-) TimerEvent: {}
+[8.526574] (-) TimerEvent: {}
+[8.626958] (-) TimerEvent: {}
+[8.727323] (-) TimerEvent: {}
+[8.827651] (-) TimerEvent: {}
+[8.928007] (-) TimerEvent: {}
+[9.028346] (-) TimerEvent: {}
+[9.128654] (-) TimerEvent: {}
+[9.229010] (-) TimerEvent: {}
+[9.329358] (-) TimerEvent: {}
+[9.429651] (-) TimerEvent: {}
+[9.529964] (-) TimerEvent: {}
+[9.630249] (-) TimerEvent: {}
+[9.730538] (-) TimerEvent: {}
+[9.830880] (-) TimerEvent: {}
+[9.931311] (-) TimerEvent: {}
+[10.031599] (-) TimerEvent: {}
+[10.131842] (-) TimerEvent: {}
+[10.232131] (-) TimerEvent: {}
+[10.332390] (-) TimerEvent: {}
+[10.432647] (-) TimerEvent: {}
+[10.532921] (-) TimerEvent: {}
+[10.633206] (-) TimerEvent: {}
+[10.733466] (-) TimerEvent: {}
+[10.833729] (-) TimerEvent: {}
+[10.933994] (-) TimerEvent: {}
+[11.034287] (-) TimerEvent: {}
+[11.134597] (-) TimerEvent: {}
+[11.234872] (-) TimerEvent: {}
+[11.335186] (-) TimerEvent: {}
+[11.435448] (-) TimerEvent: {}
+[11.535747] (-) TimerEvent: {}
+[11.636086] (-) TimerEvent: {}
+[11.736377] (-) TimerEvent: {}
+[11.836702] (-) TimerEvent: {}
+[11.937057] (-) TimerEvent: {}
+[12.037351] (-) TimerEvent: {}
+[12.137692] (-) TimerEvent: {}
+[12.238004] (-) TimerEvent: {}
+[12.338310] (-) TimerEvent: {}
+[12.438594] (-) TimerEvent: {}
+[12.538920] (-) TimerEvent: {}
+[12.639232] (-) TimerEvent: {}
+[12.739662] (-) TimerEvent: {}
+[12.839967] (-) TimerEvent: {}
+[12.940292] (-) TimerEvent: {}
+[13.040598] (-) TimerEvent: {}
+[13.140942] (-) TimerEvent: {}
+[13.241210] (-) TimerEvent: {}
+[13.341468] (-) TimerEvent: {}
+[13.441784] (-) TimerEvent: {}
+[13.490326] (tp1) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable navigation\x1b[0m\n'}
+[13.541954] (-) TimerEvent: {}
+[13.642302] (-) TimerEvent: {}
+[13.742796] (-) TimerEvent: {}
+[13.843221] (-) TimerEvent: {}
+[13.943530] (-) TimerEvent: {}
+[14.043778] (-) TimerEvent: {}
+[14.144066] (-) TimerEvent: {}
+[14.244348] (-) TimerEvent: {}
+[14.344628] (-) TimerEvent: {}
+[14.365235] (tp1) StdoutLine: {'line': b'[100%] Built target navigation\n'}
+[14.378686] (tp1) CommandEnded: {'returncode': 0}
+[14.379382] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'install'}
+[14.379617] (tp1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eb/ros2_ws/build/tp1'], 'cwd': '/home/eb/ros2_ws/build/tp1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'eb'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/Aria/lib'), ('HOME', '/home/eb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1314'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eb-Dell-G15-5510:@/tmp/.ICE-unix/1314,unix/eb-Dell-G15-5510:/tmp/.ICE-unix/1314'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/959ffd00_6c1c_4644_81f1_32d4a7982fb3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8Y8482'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eb/ros2_ws/build/tp1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e8c2a8a0fdea16565decacd1686072d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eb/ros2_ws/install/tp1:/home/eb/ros2_ws/install/phi_aria:/opt/ros/humble')]), 'shell': False}
+[14.388422] (tp1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.388690] (tp1) StdoutLine: {'line': b'-- Installing: /home/eb/ros2_ws/install/tp1/lib/tp1/navigation\n'}
+[14.395156] (tp1) StdoutLine: {'line': b'-- Set runtime path of "/home/eb/ros2_ws/install/tp1/lib/tp1/navigation" to ""\n'}
+[14.395400] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch\n'}
+[14.395652] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py\n'}
+[14.395727] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config\n'}
+[14.395790] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz\n'}
+[14.395915] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1\n'}
+[14.396159] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1\n'}
+[14.396377] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh\n'}
+[14.396492] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv\n'}
+[14.396605] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.sh\n'}
+[14.396669] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.dsv\n'}
+[14.396731] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.bash\n'}
+[14.396803] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.sh\n'}
+[14.396863] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.zsh\n'}
+[14.396933] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.dsv\n'}
+[14.397029] (tp1) StdoutLine: {'line': b'-- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.dsv\n'}
+[14.397080] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1\n'}
+[14.397130] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake\n'}
+[14.397180] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake\n'}
+[14.397232] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/package.xml\n'}
+[14.398392] (tp1) CommandEnded: {'returncode': 0}
+[14.409312] (tp1) JobEnded: {'identifier': 'tp1', 'rc': 0}
+[14.410235] (-) EventReactorShutdown: {}

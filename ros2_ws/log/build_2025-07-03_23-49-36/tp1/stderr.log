@@ -1,0 +1,16 @@
+/usr/bin/ld: CMakeFiles/navigation.dir/src/PotentialField.cpp.o: aviso: relocalização contra "roboPosicao" em secção só de leitura ".text"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/main.cpp.o: na função "NavigationNode::timer_callback()":
+main.cpp:(.text._ZN14NavigationNode14timer_callbackEv[_ZN14NavigationNode14timer_callbackEv]+0x424): referência não definida para "Action::followTheWalls(std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >)"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Graph.cpp.o: na função "graphicsThreadFunction(void*)":
+Graph.cpp:(.text+0x1065): referência não definida para "roboPosicao"
+/usr/bin/ld: Graph.cpp:(.text+0x10a4): referência não definida para "roboPosicao"
+/usr/bin/ld: Graph.cpp:(.text+0x10e3): referência não definida para "roboPosicao"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Mapping.cpp.o: na função "mappingThreadFunction(void*)":
+Mapping.cpp:(.text+0x15c4): referência não definida para "roboPosicao"
+/usr/bin/ld: Mapping.cpp:(.text+0x160c): referência não definida para "roboPosicao"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Mapping.cpp.o:Mapping.cpp:(.text+0x1765): mais referências não definidas para "roboPosicao" seguir
+/usr/bin/ld: aviso: a criar DT_TEXTREL num PIE.
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:311: navigation] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

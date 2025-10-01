@@ -1,0 +1,6 @@
+Invoking command in '/home/eb/ros2_ws/src/build/phi_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eb/ros2_ws/src/phi_aria -DCMAKE_INSTALL_PREFIX=/home/eb/ros2_ws/src/install/phi_aria
+Invoked command in '/home/eb/ros2_ws/src/build/phi_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eb/ros2_ws/src/phi_aria -DCMAKE_INSTALL_PREFIX=/home/eb/ros2_ws/src/install/phi_aria
+Invoking command in '/home/eb/ros2_ws/src/build/phi_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/phi_aria -- -j12 -l12
+Invoked command in '/home/eb/ros2_ws/src/build/phi_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/phi_aria -- -j12 -l12
+Invoking command in '/home/eb/ros2_ws/src/build/phi_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/src/build/phi_aria
+Invoked command in '/home/eb/ros2_ws/src/build/phi_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/src/build/phi_aria

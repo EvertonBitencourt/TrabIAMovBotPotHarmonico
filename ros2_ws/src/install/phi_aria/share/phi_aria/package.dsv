@@ -1,0 +1,8 @@
+source;share/phi_aria/hook/cmake_prefix_path.ps1
+source;share/phi_aria/hook/cmake_prefix_path.dsv
+source;share/phi_aria/hook/cmake_prefix_path.sh
+source;share/phi_aria/local_setup.bash
+source;share/phi_aria/local_setup.dsv
+source;share/phi_aria/local_setup.ps1
+source;share/phi_aria/local_setup.sh
+source;share/phi_aria/local_setup.zsh

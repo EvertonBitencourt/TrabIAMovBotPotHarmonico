@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/navigation.dir/src/main.cpp.o: na função "NavigationNode::timer_callback()":
+main.cpp:(.text._ZN14NavigationNode14timer_callbackEv[_ZN14NavigationNode14timer_callbackEv]+0x36a): referência não definida para "HimmMap::update(float, float, float, float)"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Action.cpp.o: na função "Action::Action()":
+Action.cpp:(.text+0x3c): referência não definida para "HimmMap::HimmMap(int, int, float, float, float)"
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:266: navigation] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

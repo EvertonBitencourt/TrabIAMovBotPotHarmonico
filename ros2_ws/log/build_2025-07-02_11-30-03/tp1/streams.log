@@ -1,0 +1,17 @@
+[0.009s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.055s] [ 14%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:[m[K In lambda function:
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:113:22:[m[K [01;31m[Kerror: [m[K‘[01m[KnumThreads[m[K’ is not captured
+[0.319s]   113 |             if (t == [01;31m[KnumThreads[m[K - 1) endRow = height_;
+[0.319s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:110:60:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[0.319s]   110 |         threads.emplace_back([this, t, rowsPerThread, steps[01;36m[K][m[K() {
+[0.319s]       |                                                            [01;36m[K^[m[K
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:103:52:[m[K [01;36m[Knote: [m[K‘[01m[Kint numThreads[m[K’ declared here
+[0.319s]   103 | void HarmonicField::parallelIterate(int steps, [01;36m[Kint numThreads[m[K)
+[0.319s]       |                                                [01;36m[K~~~~^~~~~~~~~~[m[K
+[0.410s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:146: CMakeFiles/navigation.dir/src/HarmonicField.cpp.o] Erro 1
+[0.411s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[0.411s] gmake: *** [Makefile:146: all] Erro 2
+[0.413s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12

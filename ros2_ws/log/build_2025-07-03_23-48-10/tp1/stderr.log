@@ -1,0 +1,53 @@
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kfloat yawGradiente(const std::vector<std::vector<float> >&, float, float)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:30:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     if (x <= 0 || [01;35m[Kx >= campoPotencial[0].size() - 1[m[K || y <= 0 || y >= campoPotencial.size() - 1) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:30:68:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 | (x <= 0 || x >= campoPotencial[0].size() - 1 || y <= 0 || [01;35m[Ky >= campoPotencial.size() - 1[m[K) {
+      |                                                           [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:74:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | void Action::avoidObstacles([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars, std::vector<float> pose)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:74:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | voidObstacles(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K, std::vector<float> pose)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:74:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | ctor<float> lasers, std::vector<float> sonars, [01;35m[Kstd::vector<float> pose[m[K)
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:79:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   79 | ction::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:79:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   79 | PossibleFromWalls(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[KPosition detectarParede(const std::vector<float>&, float, bool)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:100:37:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KPosition::theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  100 |     Position wallPos = {xWall, yWall[01;35m[K}[m[K;
+      |                                     [01;35m[K^[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::testMode(std::vector<float>, std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:104:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | void Action::testMode([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars, std::vector<float> pose)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+/usr/bin/ld: CMakeFiles/navigation.dir/src/PotentialField.cpp.o: aviso: relocalização contra "roboPosicao" em secção só de leitura ".text"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/main.cpp.o: na função "NavigationNode::timer_callback()":
+main.cpp:(.text._ZN14NavigationNode14timer_callbackEv[_ZN14NavigationNode14timer_callbackEv]+0x424): referência não definida para "Action::followTheWalls(std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >)"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Graph.cpp.o: na função "graphicsThreadFunction(void*)":
+Graph.cpp:(.text+0x1065): referência não definida para "roboPosicao"
+/usr/bin/ld: Graph.cpp:(.text+0x10a4): referência não definida para "roboPosicao"
+/usr/bin/ld: Graph.cpp:(.text+0x10e3): referência não definida para "roboPosicao"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Mapping.cpp.o: na função "mappingThreadFunction(void*)":
+Mapping.cpp:(.text+0x15c4): referência não definida para "roboPosicao"
+/usr/bin/ld: Mapping.cpp:(.text+0x160c): referência não definida para "roboPosicao"
+/usr/bin/ld: CMakeFiles/navigation.dir/src/Mapping.cpp.o:Mapping.cpp:(.text+0x1765): mais referências não definidas para "roboPosicao" seguir
+/usr/bin/ld: aviso: a criar DT_TEXTREL num PIE.
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:311: navigation] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

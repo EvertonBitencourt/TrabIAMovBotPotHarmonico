@@ -1,0 +1,48 @@
+[ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In constructor ‘[01m[KAction::Action()[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:5:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHimmMap::HimmMap()[m[K’
+    5 | Action::Action([01;31m[K)[m[K
+      |                [01;31m[K^[m[K
+In file included from [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:3[m[K,
+                 from [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:8:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHimmMap::HimmMap(int, int, float, float, float)[m[K’
+    8 |     [01;36m[KHimmMap[m[K(int width, int height, float resolution, float origin_x, float origin_y);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:8:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHimmMap::HimmMap(const HimmMap&)[m[K’
+    6 | class [01;36m[KHimmMap[m[K {
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHimmMap::HimmMap(HimmMap&&)[m[K’
+[01m[K/home/eb/ros2_ws/src/tp1/include/HimmMap.h:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:11:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | void Action::avoidObstacles([01;35m[Kconst std::vector<float> lasers[m[K, const std::vector<float> sonars)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:50:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 | void Action::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:107:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfrontRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  107 |     float [01;35m[KfrontRight[m[K = sonars[4];
+      |           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:110:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsideRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |     float [01;35m[KsideRight[m[K = (sonars[6] + sonars[7]) / 2.0;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:97:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 | void Action::keepAsCloseAsPossibleToTheWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:90: CMakeFiles/navigation.dir/src/Action.cpp.o] Erro 1
+gmake[2]: ** Esperando que outros processos terminem.
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:91:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   91 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                              [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:105:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                          [01;35m[K~~~~~~^~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

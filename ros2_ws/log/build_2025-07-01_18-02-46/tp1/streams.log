@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.059s] [ 14%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.567s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:19:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>)[m[K’
+[0.567s]    19 | void [01;31m[KAction[m[K::avoidObstacles(const std::vector<float> sonars)
+[0.567s]       |      [01;31m[K^~~~~~[m[K
+[0.567s] In file included from [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:39:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’
+[0.568s]    39 |     void [01;36m[KavoidObstacles[m[K(std::vector<float> lasers, std::vector<float> sonars);
+[0.568s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Action[m[K’ defined here
+[0.568s]    20 | class [01;36m[KAction[m[K
+[0.568s]       |       [01;36m[K^~~~~~[m[K
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:56:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>)[m[K’
+[0.568s]    56 | void [01;31m[KAction[m[K::keepAsFarthestAsPossibleFromWalls(std::vector<float> sonars)
+[0.568s]       |      [01;31m[K^~~~~~[m[K
+[0.568s] In file included from [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:40:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’
+[0.568s]    40 |     void [01;36m[KkeepAsFarthestAsPossibleFromWalls[m[K(std::vector<float> lasers, std::vector<float> sonars);
+[0.568s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Action[m[K’ defined here
+[0.568s]    20 | class [01;36m[KAction[m[K
+[0.568s]       |       [01;36m[K^~~~~~[m[K
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:100:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>)[m[K’
+[0.568s]   100 | void [01;31m[KAction[m[K::keepAsCloseAsPossibleToTheWalls(std::vector<float> sonars)
+[0.568s]       |      [01;31m[K^~~~~~[m[K
+[0.568s] In file included from [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[0.568s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:41:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’
+[0.568s]    41 |     void [01;36m[KkeepAsCloseAsPossibleToTheWalls[m[K(std::vector<float> lasers, std::vector<float> sonars);
+[0.568s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.569s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Action[m[K’ defined here
+[0.569s]    20 | class [01;36m[KAction[m[K
+[0.569s]       |       [01;36m[K^~~~~~[m[K
+[0.574s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::navigateWithHarmonicField()[m[K’:
+[0.574s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:247:33:[m[K [01;31m[Kerror: [m[K‘[01m[KroboPosicao[m[K’ was not declared in this scope
+[0.574s]   247 |             himmMap_.updateHIMM([01;31m[KroboPosicao[m[K.x, roboPosicao.y, roboPosicao.theta, sonars[i]);
+[0.574s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[0.668s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:90: CMakeFiles/navigation.dir/src/Action.cpp.o] Erro 1
+[0.669s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[0.669s] gmake: *** [Makefile:146: all] Erro 2
+[0.672s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12

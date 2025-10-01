@@ -1,0 +1,6 @@
+Invoking command in '/home/eb/ros2_ws/src/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eb/ros2_ws/src/tp1 -DCMAKE_INSTALL_PREFIX=/home/eb/ros2_ws/src/install/tp1
+Invoked command in '/home/eb/ros2_ws/src/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eb/ros2_ws/src/tp1 -DCMAKE_INSTALL_PREFIX=/home/eb/ros2_ws/src/install/tp1
+Invoking command in '/home/eb/ros2_ws/src/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/tp1 -- -j12 -l12
+Invoked command in '/home/eb/ros2_ws/src/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/tp1 -- -j12 -l12
+Invoking command in '/home/eb/ros2_ws/src/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/src/build/tp1
+Invoked command in '/home/eb/ros2_ws/src/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/src/build/tp1

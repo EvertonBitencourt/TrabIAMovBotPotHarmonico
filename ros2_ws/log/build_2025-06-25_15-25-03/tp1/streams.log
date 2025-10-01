@@ -1,0 +1,141 @@
+[0.007s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eb/ros2_ws/src/tp1 -DCMAKE_INSTALL_PREFIX=/home/eb/ros2_ws/install/tp1
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.497s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.500s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.573s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.579s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.587s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.588s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.588s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.635s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.637s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.693s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.749s] -- Looking for pthread.h
+[0.800s] -- Looking for pthread.h - found
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.855s] -- Found Threads: TRUE  
+[0.940s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.957s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[0.957s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.957s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.957s]   cmake_policy command to set the policy and suppress this warning.
+[0.957s] 
+[0.957s]   FindOpenGL found both a legacy GL library:
+[0.957s] 
+[0.957s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.957s] 
+[0.957s]   and GLVND libraries for OpenGL and GLX:
+[0.957s] 
+[0.957s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.957s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.957s] 
+[0.957s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.957s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.957s] Call Stack (most recent call first):
+[0.958s]   CMakeLists.txt:18 (find_package)
+[0.958s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.958s] [0m
+[0.958s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.972s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.972s] -- Checking for module 'glut'
+[0.974s] --   No package 'glut' found
+[0.976s] -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+[0.979s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.038s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.038s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/eb/ros2_ws/src/tp1/include>
+[1.038s] -- Configured cppcheck exclude dirs and/or files: 
+[1.038s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.039s] -- Added test 'lint_cmake' to check CMake code style
+[1.039s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.040s] -- Added test 'uncrustify' to check C / C++ code style
+[1.040s] -- Configured uncrustify additional arguments: 
+[1.040s] -- Added test 'xmllint' to check XML markup files
+[1.041s] -- Configuring done
+[1.054s] -- Generating done
+[1.060s] -- Build files have been written to: /home/eb/ros2_ws/build/tp1
+[1.068s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eb/ros2_ws/src/tp1 -DCMAKE_INSTALL_PREFIX=/home/eb/ros2_ws/install/tp1
+[1.069s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[1.105s] [ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[1.105s] [ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Perception.cpp.o[0m
+[1.107s] [ 60%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[1.107s] [ 80%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Utils.cpp.o[0m
+[1.427s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[1.427s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:11:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.427s]    11 | void Action::avoidObstacles([01;35m[Kconst std::vector<float> lasers[m[K, const std::vector<float> sonars)
+[1.427s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.428s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[1.428s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:50:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.428s]    50 | void Action::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[1.428s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.428s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’:
+[1.428s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:107:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfrontRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.428s]   107 |     float [01;35m[KfrontRight[m[K = sonars[4];
+[1.429s]       |           [01;35m[K^~~~~~~~~~[m[K
+[1.429s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:110:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsideRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.429s]   110 |     float [01;35m[KsideRight[m[K = (sonars[6] + sonars[7]) / 2.0;
+[1.429s]       |           [01;35m[K^~~~~~~~~[m[K
+[1.429s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:97:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.429s]    97 | void Action::keepAsCloseAsPossibleToTheWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[1.429s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.494s] [01m[K/home/eb/ros2_ws/src/tp1/src/Perception.cpp:[m[K In member function ‘[01m[Kstd::vector<float, std::allocator<float> > Perception::getLatestSonarRanges()[m[K’:
+[3.494s] [01m[K/home/eb/ros2_ws/src/tp1/src/Perception.cpp:169:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumbytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.494s]   169 |     int [01;35m[Knumbytes[m[K = sonarROS.data.size();
+[3.494s]       |         [01;35m[K^~~~~~~~[m[K
+[3.494s] [01m[K/home/eb/ros2_ws/src/tp1/src/Perception.cpp:170:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.494s]   170 |     int [01;35m[Knumfields[m[K = sonarROS.fields.size();
+[3.494s]       |         [01;35m[K^~~~~~~~~[m[K
+[3.541s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[3.541s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:91:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.541s]    91 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+[3.541s]       |                              [01;35m[K~~~~~~^~~[m[K
+[3.545s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[3.545s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:105:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.545s]   105 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+[3.545s]       |                          [01;35m[K~~~~~~^~~[m[K
+[12.869s] [100%] [32m[1mLinking CXX executable navigation[0m
+[13.487s] [100%] Built target navigation
+[13.504s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[13.508s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1
+[13.525s] -- Install configuration: ""
+[13.525s] -- Installing: /home/eb/ros2_ws/install/tp1/lib/tp1/navigation
+[13.537s] -- Set runtime path of "/home/eb/ros2_ws/install/tp1/lib/tp1/navigation" to ""
+[13.537s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/launch
+[13.537s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py
+[13.538s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/config
+[13.538s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz
+[13.538s] -- Installing: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1
+[13.539s] -- Installing: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1
+[13.539s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh
+[13.539s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv
+[13.539s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.sh
+[13.539s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.dsv
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.bash
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.sh
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.zsh
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.dsv
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.dsv
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake
+[13.540s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.xml
+[13.542s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1

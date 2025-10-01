@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HimmMap.cpp.o[0m
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:19:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 | void Action::avoidObstacles([01;35m[Kconst std::vector<float> lasers[m[K, const std::vector<float> sonars)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:56:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 | ction::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:110:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfrontRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |     float [01;35m[KfrontRight[m[K = sonars[4];
+      |           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:113:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsideRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  113 |     float [01;35m[KsideRight[m[K = (sonars[6] + sonars[7]) / 2.0;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:100:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 |  Action::keepAsCloseAsPossibleToTheWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::navigateWithHarmonicField()[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:247:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass HarmonicField[m[K’ has no member named ‘[01m[KupdateHIMM[m[K’
+  247 |             harmonic_.[01;31m[KupdateHIMM[m[K(roboPosicao.x, roboPosicao.y, roboPosicao.theta, sonars[i]);
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:247:34:[m[K [01;31m[Kerror: [m[K‘[01m[KroboPosicao[m[K’ was not declared in this scope
+  247 |             harmonic_.updateHIMM([01;31m[KroboPosicao[m[K.x, roboPosicao.y, roboPosicao.theta, sonars[i]);
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:275:24:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<float> sonars[m[K’
+  275 |     std::vector<float> [01;31m[Ksonars[m[K = perception_->getLatestSonarRanges();
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:241:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<float> sonars[m[K’ previously declared here
+  241 |     std::vector<float> [01;36m[Ksonars[m[K = perception_->getLatestSonarRanges();
+      |                        [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:90: CMakeFiles/navigation.dir/src/Action.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/eb/ros2_ws/src/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/tp1 -- -j12 -l12
+[0.049s] [ 16%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HimmMap.cpp.o[0m
+[0.209s] [01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:[m[K In member function ‘[01m[Kvoid HimmMap::drawGL()[m[K’:
+[0.209s] [01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:78:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.209s]    78 |     std::[01;31m[Kcout[m[K << "Desenhando mapa no OpenGL..." << std::endl;
+[0.209s]       |          [01;31m[K^~~~[m[K
+[0.209s] [01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[0.209s]     3 | #include <GL/gl.h>
+[0.209s]   +++ |+[32m[K#include <iostream>[m[K
+[0.209s]     4 | 
+[0.209s] [01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:78:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.209s]    78 |     std::cout << "Desenhando mapa no OpenGL..." << std::[01;31m[Kendl[m[K;
+[0.209s]       |                                                         [01;31m[K^~~~[m[K
+[0.210s] [01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[0.210s]     3 | #include <GL/gl.h>
+[0.210s]   +++ |+[32m[K#include <ostream>[m[K
+[0.210s]     4 | 
+[0.257s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:132: CMakeFiles/navigation.dir/src/HimmMap.cpp.o] Erro 1
+[0.257s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[0.257s] gmake: *** [Makefile:146: all] Erro 2
+[0.258s] Invoked command in '/home/eb/ros2_ws/src/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/src/build/tp1 -- -j12 -l12

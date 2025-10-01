@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.092s] [ 12%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[2.944s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[2.945s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:93:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.945s]    93 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.945s]       |                              [01;35m[K~~~~~~^~~[m[K
+[2.949s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[2.949s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.949s]   107 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.949s]       |                          [01;35m[K~~~~~~^~~[m[K
+[15.756s] [ 25%] [32m[1mLinking CXX executable navigation[0m
+[16.854s] [100%] Built target navigation
+[16.863s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[16.865s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1
+[16.871s] -- Install configuration: ""
+[16.871s] -- Installing: /home/eb/ros2_ws/install/tp1/lib/tp1/navigation
+[16.880s] -- Set runtime path of "/home/eb/ros2_ws/install/tp1/lib/tp1/navigation" to ""
+[16.880s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.sh
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.dsv
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.bash
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.sh
+[16.881s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.zsh
+[16.882s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.dsv
+[16.882s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.dsv
+[16.882s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1
+[16.882s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake
+[16.882s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake
+[16.882s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/package.xml
+[16.886s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1

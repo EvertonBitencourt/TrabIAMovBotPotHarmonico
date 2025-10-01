@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.069s] [ 14%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[0.318s] [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:35:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid HarmonicField::iterateUntilConvergenceNear(float, float, float, int)[m[K’
+[0.318s]    35 | void [01;31m[KHarmonicField[m[K::iterateUntilConvergenceNear(float x, float y, float epsilon, int radius)
+[0.318s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[0.318s] [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:35:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid HarmonicField::iterateUntilConvergenceNear(float, float, float, int)[m[K’
+[0.318s] In file included from [01m[K/home/eb/ros2_ws/src/tp1/src/HarmonicField.cpp:1[m[K:
+[0.318s] [01m[K/home/eb/ros2_ws/src/tp1/include/HarmonicField.h:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass HarmonicField[m[K’ defined here
+[0.319s]     7 | class [01;36m[KHarmonicField[m[K {
+[0.319s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[0.390s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:146: CMakeFiles/navigation.dir/src/HarmonicField.cpp.o] Erro 1
+[0.390s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[0.390s] gmake: *** [Makefile:146: all] Erro 2
+[0.392s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12

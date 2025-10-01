@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable navigation[0m

@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.070s] [ 14%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[0.557s] [ 28%] [32m[1mLinking CXX executable navigation[0m
+[1.367s] [100%] Built target navigation
+[1.376s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[1.377s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1
+[1.382s] -- Install configuration: ""
+[1.382s] -- Installing: /home/eb/ros2_ws/install/tp1/lib/tp1/navigation
+[1.389s] -- Set runtime path of "/home/eb/ros2_ws/install/tp1/lib/tp1/navigation" to ""
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh
+[1.389s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.sh
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.dsv
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.bash
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.sh
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.zsh
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.dsv
+[1.390s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.dsv
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake
+[1.390s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/package.xml
+[1.392s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1

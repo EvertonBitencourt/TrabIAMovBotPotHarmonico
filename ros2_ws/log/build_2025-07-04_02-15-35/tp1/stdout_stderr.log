@@ -1,0 +1,89 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Mapping.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/PotentialField.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Graph.cpp.o[0m
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kfloat yawGradiente(const std::vector<std::vector<float> >&, float, float)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:30:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     if (x <= 0 || [01;35m[Kx >= campoPotencial[0].size() - 1[m[K || y <= 0 || y >= campoPotencial.size() - 1) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:30:68:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     if (x <= 0 || x >= campoPotencial[0].size() - 1 || y <= 0 || [01;35m[Ky >= campoPotencial.size() - 1[m[K) {
+      |                                                                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:74:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | void Action::avoidObstacles([01;35m[Kconst std::vector<float> lasers[m[K, const std::vector<float> sonars)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:121:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfrontRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  121 |     float [01;35m[KfrontRight[m[K = sonars[4];
+      |           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:124:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsideRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  124 |     float [01;35m[KsideRight[m[K = (sonars[6] + sonars[7]) / 2.0;
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:111:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  111 | void Action::keepAsCloseAsPossibleToTheWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:146:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  146 | void Action::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[KPosition detectarParede(const std::vector<float>&, float, bool)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:206:37:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KPosition::theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  206 |     Position wallPos = {xWall, yWall[01;35m[K}[m[K;
+      |                                     [01;35m[K^[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::testMode(std::vector<float>, std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:210:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  210 | void Action::testMode([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars, std::vector<float> pose)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Graph.cpp:[m[K In function ‘[01m[Kvoid* graphicsThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Graph.cpp:203:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 | void* graphicsThreadFunction([01;35m[Kvoid* arg[m[K) {
+      |                              [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/PotentialField.cpp:[m[K In function ‘[01m[Kvoid* potentialFieldThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/PotentialField.cpp:86:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 | void* potentialFieldThreadFunction([01;35m[Kvoid* arg[m[K) {
+      |                                    [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:93:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   93 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                              [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  107 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+      |                          [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:[m[K In function ‘[01m[KCellRelativeInfo getRelativeInfo(const CellCenter&, const CellCenter&, float)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:109:46:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(((double)(relativeAngle * 1.8e+2f)) / 3.1415926535897931e+0)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  109 |     return {distance, relativeAngle * 180.0f [01;35m[K/[m[K M_PI};
+      |                                              [01;35m[K^[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:[m[K In function ‘[01m[Kfloat bayes(float, float, float, float, float, float, float)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:125:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  125 |         pOcupS = [34m[K([m[KpSOcup_pOcup / (pSOcup_pOcup + ((1.0f - pSOcup) * (1 - pOcup)))[01;31m[K;[m[K
+      |                  [34m[K~[m[K                                                               [01;31m[K^[m[K
+      |                                                                                  [32m[K)[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:130:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  130 |         pOcupS = (pSOcup_pOcup / [34m[K([m[KpSOcup_pOcup + (pSVaz * (1 - pOcup))[01;31m[K;[m[K
+      |                                  [34m[K~[m[K                                    [01;31m[K^[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:130:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  130 |         pOcupS = [34m[K([m[KpSOcup_pOcup / (pSOcup_pOcup + (pSVaz * (1 - pOcup))[01;31m[K;[m[K
+      |                  [34m[K~[m[K                                                    [01;31m[K^[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:[m[K In function ‘[01m[Kvoid updateBayes(std::vector<std::vector<float> >&, Robot, float)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:137:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  137 |     for (int line = 0; [01;35m[Kline < matriz.size()[m[K; ++line) {
+      |                        [01;35m[K~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:138:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  138 |         for (int column = 0; [01;35m[Kcolumn < matriz[0].size()[m[K; ++column) {
+      |                              [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:[m[K In function ‘[01m[Kvoid* mappingThreadFunction(void*)[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:268:45:[m[K [01;31m[Kerror: [m[K‘[01m[KroboPosicao[m[K’ was not declared in this scope
+  268 |         MatrixPosition botMatrix = findCell([01;31m[KroboPosicao[m[K.x * scaleFactor - offset[0],
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/Mapping.cpp:266:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  266 | void* mappingThreadFunction([01;35m[Kvoid* arg[m[K) {
+      |                             [01;35m[K~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:146: CMakeFiles/navigation.dir/src/Mapping.cpp.o] Erro 1
+gmake[2]: ** Esperando que outros processos terminem.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

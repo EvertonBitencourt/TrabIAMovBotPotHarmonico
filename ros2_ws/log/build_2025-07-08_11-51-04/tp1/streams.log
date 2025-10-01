@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.087s] [ 12%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/PotentialField.cpp.o[0m
+[2.532s] [01m[K/home/eb/ros2_ws/src/tp1/src/PotentialField.cpp:[m[K In function ‘[01m[Kvoid* potentialFieldThreadFunction(void*)[m[K’:
+[2.532s] [01m[K/home/eb/ros2_ws/src/tp1/src/PotentialField.cpp:83:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.532s]    83 | void* potentialFieldThreadFunction([01;35m[Kvoid* arg[m[K) {
+[2.532s]       |                                    [01;35m[K~~~~~~^~~[m[K
+[3.241s] [ 25%] [32m[1mLinking CXX executable navigation[0m
+[4.219s] /usr/bin/ld: CMakeFiles/navigation.dir/src/Graph.cpp.o: aviso: relocalização contra "campoPotencial" em secção só de leitura ".text"
+[4.292s] /usr/bin/ld: CMakeFiles/navigation.dir/src/Action.cpp.o: na função "yawGradiente(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&, float, float)":
+[4.292s] Action.cpp:(.text+0x69): referência não definida para "campoPotencial"
+[4.292s] /usr/bin/ld: Action.cpp:(.text+0x95): referência não definida para "campoPotencial"
+[4.292s] /usr/bin/ld: CMakeFiles/navigation.dir/src/Action.cpp.o: na função "Action::testMode(std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >)":
+[4.292s] Action.cpp:(.text+0xe06): referência não definida para "campoPotencial"
+[4.292s] /usr/bin/ld: CMakeFiles/navigation.dir/src/Graph.cpp.o: na função "desenhaCampoPotencial(GLFWwindow*)":
+[4.293s] Graph.cpp:(.text+0xca3): referência não definida para "campoPotencial"
+[4.293s] /usr/bin/ld: Graph.cpp:(.text+0xe5c): referência não definida para "campoPotencial"
+[4.293s] /usr/bin/ld: CMakeFiles/navigation.dir/src/Graph.cpp.o:Graph.cpp:(.text+0xe87): mais referências não definidas para "campoPotencial" seguir
+[4.330s] /usr/bin/ld: aviso: a criar DT_TEXTREL num PIE.
+[4.338s] collect2: error: ld returned 1 exit status
+[4.339s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:311: navigation] Erro 1
+[4.340s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[4.340s] gmake: *** [Makefile:146: all] Erro 2
+[4.343s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12

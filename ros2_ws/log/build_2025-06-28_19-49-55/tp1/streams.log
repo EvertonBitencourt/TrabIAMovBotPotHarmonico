@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.055s] [ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[0.055s] [ 28%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:12:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.319s]    12 | void Action::avoidObstacles([01;35m[Kconst std::vector<float> lasers[m[K, const std::vector<float> sonars)
+[0.319s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.319s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:51:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.319s]    51 | void Action::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.319s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.320s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.320s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:108:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfrontRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.320s]   108 |     float [01;35m[KfrontRight[m[K = sonars[4];
+[0.320s]       |           [01;35m[K^~~~~~~~~~[m[K
+[0.320s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:111:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsideRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.320s]   111 |     float [01;35m[KsideRight[m[K = (sonars[6] + sonars[7]) / 2.0;
+[0.320s]       |           [01;35m[K^~~~~~~~~[m[K
+[0.320s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:98:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.320s]    98 | void Action::keepAsCloseAsPossibleToTheWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.320s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.320s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::navigateWithHarmonicField()[m[K’:
+[0.320s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:264:42:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Perception[m[K’
+[0.320s]   264 |     std::vector<float> pose = perception_[01;31m[K->[m[KgetLatestPose(); // usamos percepção aqui
+[0.321s]       |                                          [01;31m[K^~[m[K
+[0.321s] In file included from [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[0.321s] [01m[K/home/eb/ros2_ws/src/tp1/include/Action.h:7:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Perception[m[K’
+[0.321s]     7 | class [01;36m[KPerception[m[K;
+[0.321s]       |       [01;36m[K^~~~~~~~~~[m[K
+[0.400s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:90: CMakeFiles/navigation.dir/src/Action.cpp.o] Erro 1
+[0.400s] gmake[2]: ** Esperando que outros processos terminem.
+[2.047s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[2.047s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:109:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.047s]   109 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.047s]       |                              [01;35m[K~~~~~~^~~[m[K
+[2.047s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[2.048s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:129:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KAction action[m[K’
+[2.048s]   129 |   Action [01;31m[Kaction[m[K;
+[2.048s]       |          [01;31m[K^~~~~~[m[K
+[2.048s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:125:10:[m[K [01;36m[Knote: [m[K‘[01m[KAction action[m[K’ previously declared here
+[2.048s]   125 |   Action [01;36m[Kaction[m[K;
+[2.048s]       |          [01;36m[K^~~~~~[m[K
+[2.048s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:130:14:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KPerception perception[m[K’
+[2.048s]   130 |   Perception [01;31m[Kperception[m[K;
+[2.048s]       |              [01;31m[K^~~~~~~~~~[m[K
+[2.048s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:126:14:[m[K [01;36m[Knote: [m[K‘[01m[KPerception perception[m[K’ previously declared here
+[2.048s]   126 |   Perception [01;36m[Kperception[m[K;
+[2.048s]       |              [01;36m[K^~~~~~~~~~[m[K
+[2.050s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:123:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.050s]   123 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.050s]       |                          [01;35m[K~~~~~~^~~[m[K
+[2.050s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* glThreadFunction(void*)[m[K’:
+[2.050s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:139:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.051s]   139 | void *glThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.051s]       |                        [01;35m[K~~~~~~^~~[m[K
+[5.758s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/main.cpp.o] Erro 1
+[5.758s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+[5.758s] gmake: *** [Makefile:146: all] Erro 2
+[5.760s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12

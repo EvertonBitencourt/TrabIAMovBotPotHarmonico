@@ -1,0 +1,18 @@
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:[m[K In member function ‘[01m[Kvoid HimmMap::drawGL()[m[K’:
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:78:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   78 |     std::[01;31m[Kcout[m[K << "Desenhando mapa no OpenGL..." << std::endl;
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    3 | #include <GL/gl.h>
+  +++ |+[32m[K#include <iostream>[m[K
+    4 | 
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:78:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   78 |     std::cout << "Desenhando mapa no OpenGL..." << std::[01;31m[Kendl[m[K;
+      |                                                         [01;31m[K^~~~[m[K
+[01m[K/home/eb/ros2_ws/src/tp1/src/HimmMap.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+    3 | #include <GL/gl.h>
+  +++ |+[32m[K#include <ostream>[m[K
+    4 | 
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:132: CMakeFiles/navigation.dir/src/HimmMap.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

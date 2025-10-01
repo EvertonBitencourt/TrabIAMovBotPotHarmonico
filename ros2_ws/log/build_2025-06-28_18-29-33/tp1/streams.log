@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.055s] [ 57%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.056s] [ 57%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HarmonicField.cpp.o[0m
+[0.056s] [ 57%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[0.056s] [ 57%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/HimmMap.cpp.o[0m
+[0.328s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.328s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:11:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.328s]    11 | void Action::avoidObstacles([01;35m[Kconst std::vector<float> lasers[m[K, const std::vector<float> sonars)
+[0.328s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.328s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.328s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:50:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.328s]    50 | void Action::keepAsFarthestAsPossibleFromWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.328s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.329s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsCloseAsPossibleToTheWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.329s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:107:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KfrontRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.329s]   107 |     float [01;35m[KfrontRight[m[K = sonars[4];
+[0.329s]       |           [01;35m[K^~~~~~~~~~[m[K
+[0.329s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:110:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsideRight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.329s]   110 |     float [01;35m[KsideRight[m[K = (sonars[6] + sonars[7]) / 2.0;
+[0.329s]       |           [01;35m[K^~~~~~~~~[m[K
+[0.329s] [01m[K/home/eb/ros2_ws/src/tp1/src/Action.cpp:97:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.329s]    97 | void Action::keepAsCloseAsPossibleToTheWalls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.329s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.062s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[2.062s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:104:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.062s]   104 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.062s]       |                              [01;35m[K~~~~~~^~~[m[K
+[2.065s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[2.065s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:118:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.065s]   118 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.065s]       |                          [01;35m[K~~~~~~^~~[m[K
+[2.065s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* glThreadFunction(void*)[m[K’:
+[2.065s] [01m[K/home/eb/ros2_ws/src/tp1/src/main.cpp:132:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.065s]   132 | void *glThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.065s]       |                        [01;35m[K~~~~~~^~~[m[K
+[11.049s] [ 71%] [32m[1mLinking CXX executable navigation[0m
+[11.643s] [100%] Built target navigation
+[11.661s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eb/ros2_ws/build/tp1 -- -j12 -l12
+[11.666s] Invoking command in '/home/eb/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1
+[11.688s] -- Install configuration: ""
+[11.688s] -- Installing: /home/eb/ros2_ws/install/tp1/lib/tp1/navigation
+[11.704s] -- Set runtime path of "/home/eb/ros2_ws/install/tp1/lib/tp1/navigation" to ""
+[11.704s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch
+[11.705s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py
+[11.705s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config
+[11.705s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz
+[11.705s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1
+[11.705s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1
+[11.705s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh
+[11.705s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.sh
+[11.706s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/environment/path.dsv
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.bash
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.sh
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.zsh
+[11.706s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/local_setup.dsv
+[11.706s] -- Installing: /home/eb/ros2_ws/install/tp1/share/tp1/package.dsv
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake
+[11.706s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake
+[11.707s] -- Up-to-date: /home/eb/ros2_ws/install/tp1/share/tp1/package.xml
+[11.709s] Invoked command in '/home/eb/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eb/ros2_ws/build/tp1
